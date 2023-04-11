@@ -1,0 +1,6 @@
+sentence1 = input("Enter First Sentence: ")
+sentence2 = input("Enter Second Sentence: ")
+words1 = set(sentence1.split())
+words2 = set(sentence2.split())
+common_words = words1.intersection(words2)
+print(list(common_words))

@@ -1,0 +1,5 @@
+words = input("Enter Your Words Using Commas: ")
+l1 = words.split()
+l1.sort()
+l2 = " ".join(l1)
+print(l2)
